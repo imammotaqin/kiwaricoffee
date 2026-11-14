@@ -3,6 +3,7 @@
 :root{--orange:#a84817}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
 .hero-photo .poster-word{display:none}
+.drink-svg{width:82px;height:108px;fill:none;stroke:rgba(255,250,240,.9);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;position:relative;z-index:1}.drink-outline{display:none}
 .drink-art{display:none!important}
 .drink-outline{position:relative;width:92px;height:112px;color:rgba(255,250,240,.86);z-index:1}.drink-outline .drink-body{position:absolute;left:9px;right:9px;bottom:0;height:91px;border:2.5px solid currentColor;border-radius:10px 10px 25px 25px;transform:skewX(-2deg)}.drink-outline .drink-line{position:absolute;left:22px;right:22px;top:35px;border-top:1.5px dashed currentColor;opacity:.65}.drink-outline .drink-cap{display:none}.menu-card-visual[data-series="bottle"] .drink-outline .drink-body{left:15px;right:15px;height:72px;bottom:0;border-radius:9px 9px 16px 16px}.menu-card-visual[data-series="bottle"] .drink-outline .drink-cap{display:block;position:absolute;left:28px;right:28px;top:12px;height:27px;border:2.5px solid currentColor;border-bottom:0;border-radius:8px 8px 0 0}.menu-card-visual[data-series="bottle"] .drink-outline .drink-line{top:55px;left:28px;right:28px}.menu-card-visual[data-series="bottle"] .drink-outline::after{content:"";position:absolute;left:31px;right:31px;top:3px;border-top:2.5px solid currentColor}
 
