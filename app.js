@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '6280000000000';
+const WHATSAPP_NUMBER = '6281912482655';
 const CART_KEY = 'kiwari-cart-v1';
 
 const menu = [
