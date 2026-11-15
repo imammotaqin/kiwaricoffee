@@ -3,8 +3,8 @@ const WHATSAPP_NUMBER = '6281912482655';
 const menu = [
   {id:'kiwaren-cup',name:'Kiwaren',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, gula aren.',price:16000,color:'#6e4532',options:['Normal ice','Es batu dipisah','Less sugar']},
   {id:'kiwarabica-cup',name:'Kiwarabica',category:'cup',categoryLabel:'Iced coffee latte',description:'100% arabica, air mineral.',price:17000,color:'#93613c',options:['Normal ice','Es batu dipisah']},
-  {id:'americano-cup',name:'Americano',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso dan air mineral.',price:14000,color:'#71412d',options:['Normal ice','Es batu dipisah']},
-  {id:'latte-cup',name:'Latte',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, syrup.',price:14000,color:'#b17b58',options:['Normal ice','Es batu dipisah','Less sugar']},
+  {id:'americano-cup',name:'Americano Blend',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso blend dan air mineral.',price:14000,color:'#71412d',options:['Normal ice','Es batu dipisah']},
+  {id:'latte-cup',name:'Kilatte',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, simple syrup.',price:14000,color:'#b17b58',options:['Normal ice','Es batu dipisah','Less sugar']},
   {id:'pandan-cup',name:'Pandan',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, syrup pandan.',price:16000,color:'#49654a',options:['Normal ice','Es batu dipisah','Less sugar']},
   {id:'hazelnut-cup',name:'Hazelnut',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, syrup hazelnut.',price:16000,color:'#8c5c42',options:['Normal ice','Es batu dipisah','Less sugar']},
   {id:'butterscotch-cup',name:'Butterscotch',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, syrup butterscotch.',price:16000,color:'#a56e3d',options:['Normal ice','Es batu dipisah','Less sugar']},
