@@ -199,6 +199,7 @@ em{font-style:normal;color:var(--orange)}
 .option-row{display:flex;gap:8px;flex-wrap:wrap}
 .option-row button{min-height:42px;border:1px solid var(--line);background:transparent;padding:9px 14px;font-size:12px}
 .option-row button.active{background:var(--ink);color:var(--cream)}
+.addon-check{display:flex;align-items:center;gap:9px;font-size:13px;color:var(--brown);cursor:pointer}.addon-check input{width:18px;height:18px;accent-color:var(--orange)}.addon-check strong{color:var(--orange);font-size:12px}
 .field-label{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin:14px 0 6px}
 .field-label span{font-weight:400;text-transform:none;letter-spacing:0;color:var(--brown);opacity:.7}
 .phone-hint{font-size:11px;color:var(--brown);margin:6px 0 0;opacity:.75}
