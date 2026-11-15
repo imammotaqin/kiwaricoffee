@@ -147,6 +147,7 @@ em{font-style:normal;color:var(--orange)}
 .about-logos{display:flex;align-items:center;gap:14px}
 .about-logo,.about-halal{width:104px;height:104px;object-fit:contain;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
 .about-halal{background:#fff;padding:6px}
+.about-qr{padding:10px}
 .about-text{color:var(--brown);font-size:15px;margin:22px 0 22px;max-width:56ch}
 .halal-note{color:var(--brown);font-size:13px}
 .halal-note strong{color:var(--orange);font-size:15px}
