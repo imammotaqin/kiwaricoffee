@@ -37,8 +37,6 @@ const menu = [
   {id:'bottle-vanilla',name:'Vanilla Shake',category:'bottle',categoryLabel:'Bottle series',description:'Vanilla shake dingin, bottle ready to go.',sizes:[{label:'250 ml',price:21000},{label:'500 ml',price:42000},{label:'1 liter',price:78000}],color:'#b68f68',options:['Less sugar']},
   {id:'bottle-matcha',name:'Matcha Latte Stevi',category:'bottle',categoryLabel:'Bottle series',description:'Pure matcha dan stevia, bottle ready to go.',sizes:[{label:'250 ml',price:23000},{label:'500 ml',price:46000},{label:'1 liter',price:88000}],color:'#71865a',options:['Less ice']},
   {id:'bottle-choco',name:'Dark Choco Latte',category:'bottle',categoryLabel:'Bottle series',description:'Dark cocoa latte, bottle ready to go.',sizes:[{label:'250 ml',price:23000},{label:'500 ml',price:46000},{label:'1 liter',price:88000}],color:'#5b3224',options:['Less sugar']},
-  {id:'cream-cheese',name:'Cream Cheese',category:'addon',categoryLabel:'Add-ons',description:'Tambahan cream cheese.',price:3000,color:'#cfaa7b',options:[]},
-  {id:'ice-cream',name:'Ice Cream Vanilla',category:'addon',categoryLabel:'Add-ons',description:'Tambahan ice cream vanilla.',price:3000,color:'#b99875',options:[]}
 ];
 
 let cart = loadCart();
