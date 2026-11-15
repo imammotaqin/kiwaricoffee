@@ -23,6 +23,9 @@
         <a href="#cara-pesan">Cara pesan</a>
         <a href="#tentang">Tentang</a>
       </nav>
+      <button class="admin-trigger" type="button" data-admin-access aria-label="Buka akses admin">
+        <svg viewBox="0 0 40 52" aria-hidden="true"><ellipse cx="20" cy="26" rx="13" ry="21"/><path d="M17 7c-5 10-4 24 4 38"/></svg>
+      </button>
       <button class="cart-trigger" type="button" data-open-cart aria-label="Buka keranjang">
         <svg class="cart-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.6"/><circle cx="18" cy="20" r="1.6"/><path d="M2.5 3.5h2.2l2.3 11h11.5l2.7-7.5H6"/></svg>
         <span class="cart-label">Keranjang</span> <span class="cart-count" data-cart-count>0</span>
@@ -68,6 +71,7 @@
           <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="bottle">Bottle series</button>
           <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="addon">Add-ons</button>
         </div>
+        <div class="admin-toolbar" data-admin-toolbar hidden><strong>Mode admin aktif</strong><span>Pilih menu yang ingin dinonaktifkan.</span><button class="button button-dark" type="button" data-save-preferences>Simpan preference</button></div>
         <div class="menu-grid" data-menu-grid></div>
         <div class="menu-empty" data-menu-empty hidden>
           <h3>Menu belum ada di kategori ini.</h3><p>Pilih kategori lain untuk melihat menu yang tersedia.</p>
