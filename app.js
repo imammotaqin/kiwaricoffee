@@ -1,5 +1,4 @@
 const WHATSAPP_NUMBER = '6281912482655';
-const CART_KEY = 'kiwari-cart-v1';
 
 const menu = [
   {id:'kiwaren-cup',name:'Kiwaren',category:'cup',categoryLabel:'Iced coffee latte',description:'Espresso, susu, gula aren.',price:16000,color:'#6e4532',options:['Normal ice','Es batu dipisah','Less sugar']},
@@ -34,8 +33,12 @@ let cart = loadCart();
 let activeCategory = 'all';
 let detailState = null;
 const money = value => `Rp ${new Intl.NumberFormat('id-ID').format(value)}`;
-function loadCart(){try{return JSON.parse(localStorage.getItem(CART_KEY)) || []}catch{return []}}
-function saveCart(){localStorage.setItem(CART_KEY,JSON.stringify(cart));renderCartCount()}
+function loadCart(){
+  // Cart intentionally lives only in this page session. No customer order or cart is persisted.
+  try{localStorage.removeItem('kiwari-cart-v1')}catch{}
+  return []
+}
+function saveCart(){renderCartCount()}
 function getProduct(id){return menu.find(item=>item.id===id)}
 function unitPrice(product, sizeLabel){return product.sizes?.find(size=>size.label===sizeLabel)?.price ?? product.price}
 const SERIES_LABELS={cup:'Cup series — buat diminum sekarang',bottle:'Bottle series — buat dibawa pulang',addon:'Add-ons'};
