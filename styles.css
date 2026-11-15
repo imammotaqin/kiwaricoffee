@@ -145,8 +145,8 @@ em{font-style:normal;color:var(--orange)}
 .about-section{padding:70px 0;display:grid;grid-template-columns:1fr;gap:30px}
 .about-section h2{font-size:clamp(40px,10vw,60px)}
 .about-logos{display:flex;align-items:center;gap:14px}
-.about-logo{width:104px;height:104px;object-fit:contain;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
-.about-halal{width:64px;height:96px;object-fit:contain;background:#fff;border:1px solid var(--line);padding:3px}
+.about-logo,.about-halal{width:104px;height:104px;object-fit:contain;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
+.about-halal{background:#fff;padding:6px}
 .about-text{color:var(--brown);font-size:15px;margin:22px 0 22px;max-width:56ch}
 .halal-note{color:var(--brown);font-size:13px}
 .halal-note strong{color:var(--orange);font-size:15px}
@@ -242,7 +242,7 @@ fieldset{border:0;padding:0;margin:14px 0}
   .menu-card h3{font-size:22px}
   .menu-sheet-section{display:grid;grid-template-columns:.75fr 1.25fr;gap:60px;align-items:center;padding:30px 0 110px}
   .about-section{padding:110px 0;gap:70px}
-  .about-logo{width:180px;height:180px}
+  .about-logo,.about-halal{width:180px;height:180px}
   .drawer-panel{padding:30px 28px}
   .footer-inner{flex-direction:row;justify-content:space-between;align-items:center}
 }
