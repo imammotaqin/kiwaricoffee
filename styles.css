@@ -82,11 +82,12 @@ em{font-style:normal;color:var(--orange)}
 .hero-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2;filter:saturate(1.07) contrast(1.05)}
 .hero-photo::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(23,19,17,.25),transparent 40%,rgba(23,19,17,.55))}
 .hero-photo .coffee-cup,.hero-photo .art-ring,.hero-photo .hero-bean,.hero-photo .hero-ice{display:none}
+.hero-overlay{position:absolute;inset:0;z-index:2;pointer-events:none}
 .art-label{position:absolute;z-index:2;font:500 13px/1.1 var(--serif);letter-spacing:.12em;text-transform:uppercase;color:#f5ecdc;opacity:.92}
 .art-label strong{color:var(--tan)}
-.art-label-top{top:18px;left:18px}
-.art-label-bottom{bottom:18px;left:18px}
-.poster-sticker{position:absolute;right:16px;bottom:16px;z-index:2;width:66px;height:66px;border:2px solid #f5ecdc;border-radius:50%;display:grid;place-items:center;text-align:center;color:#f5ecdc;font:700 10px/.9 var(--serif);letter-spacing:.08em;transform:rotate(12deg)}
+.art-label-top{top:clamp(16px,5%,30px);left:clamp(16px,5%,34px)}
+.art-label-bottom{bottom:clamp(16px,5%,30px);left:clamp(16px,5%,34px)}
+.poster-sticker{position:absolute;right:clamp(16px,5%,34px);bottom:clamp(16px,5%,30px);z-index:2;width:clamp(58px,10%,86px);aspect-ratio:1;border:2px solid #f5ecdc;border-radius:50%;display:grid;place-items:center;text-align:center;color:#f5ecdc;font:700 clamp(8px,1.4vw,11px)/.9 var(--serif);letter-spacing:.08em;transform:rotate(12deg)}
 
 /* ---------- Section heading shared ---------- */
 .section-heading{display:block;margin-bottom:26px}
