@@ -61,7 +61,6 @@ em{font-style:normal;color:var(--orange)}
 .cart-trigger:hover{background:var(--ink);color:var(--cream)}
 .cart-icon{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .cart-count{display:inline-grid;place-items:center;min-width:20px;height:20px;margin-left:2px;background:var(--orange);color:#fff;font-size:11px;border-radius:100px}
-.admin-trigger{border:0;background:transparent;width:36px;height:36px;padding:6px;color:var(--brown);display:grid;place-items:center}.admin-trigger svg{width:20px;height:25px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.admin-trigger:hover{color:var(--orange)}
 
 /* ---------- Hero ---------- */
 .hero{display:grid;grid-template-columns:1fr;gap:36px;padding:56px 0 60px}
@@ -115,7 +114,6 @@ em{font-style:normal;color:var(--orange)}
 .menu-card h3{font-size:21px;line-height:1.05}
 .series-tag{font:500 11px var(--sans);letter-spacing:.02em;color:var(--brown);text-transform:lowercase;white-space:nowrap}
 .menu-card-description{font-size:12px;color:var(--brown);margin:8px 0 16px}
-.admin-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;margin-bottom:18px;background:rgba(201,155,107,.18);border:1px solid var(--line)}.admin-toolbar span{font-size:12px;color:var(--brown)}.admin-toolbar .button{min-height:38px;padding:9px 12px;margin-left:auto}.admin-check{display:flex;align-items:center;gap:6px;margin:-5px 0 12px;font-size:11px;color:var(--orange)}.admin-check input{accent-color:var(--orange)}.menu-card.is-disabled{opacity:.66}.menu-card.is-disabled .menu-card-visual{filter:grayscale(.65)}.add-button:disabled{width:auto;min-width:96px;padding:0 10px;background:#8c827b;color:#fff;font-size:10px;text-transform:uppercase;letter-spacing:.06em;cursor:not-allowed}
 .menu-card-bottom{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--line-soft);padding-top:13px}
 .price{font-size:17px;font-weight:700}
 .price small{font-size:11px;font-weight:500;color:var(--brown)}
